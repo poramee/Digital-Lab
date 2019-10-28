@@ -1,0 +1,14 @@
+
+
+NET "LED1_33" LOC = P74;
+NET "SW1_P24" LOC = P55;
+NET "SW1_P25" LOC = P25;
+
+
+NET "SW1_P25" LOC = P56;
+
+# PlanAhead Generated physical constraints 
+
+NET "SW1_P55" LOC = P55;
+NET "SW1_P56" LOC = P56;
+NET "LED1_P74" LOC = P74;

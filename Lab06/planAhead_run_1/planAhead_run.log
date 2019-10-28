@@ -1,0 +1,63 @@
+
+****** PlanAhead v14.7 (64-bit)
+  **** Build 321239 by xbuild on Fri Sep 27 19:29:51 MDT 2013
+    ** Copyright 1986-1999, 2001-2013 Xilinx, Inc. All Rights Reserved.
+
+INFO: [Common 17-78] Attempting to get a license: PlanAhead
+INFO: [Common 17-290] Got license for PlanAhead
+INFO: [Device 21-36] Loading parts and site information from C:/Xilinx/14.7/ISE_DS/PlanAhead/data/parts/arch.xml
+Parsing RTL primitives file [C:/Xilinx/14.7/ISE_DS/PlanAhead/data/parts/xilinx/rtl/prims/rtl_prims.xml]
+Finished parsing RTL primitives file [C:/Xilinx/14.7/ISE_DS/PlanAhead/data/parts/xilinx/rtl/prims/rtl_prims.xml]
+start_gui
+source {C:/Digital Lab/Lab06/pa.fromHdl.tcl}
+# create_project -name Lab06 -dir "C:/Digital Lab/Lab06/planAhead_run_1" -part xc6slx9tqg144-3
+# set_param project.pinAheadLayout yes
+# set srcset [get_property srcset [current_run -impl]]
+# set_property target_constrs_file "Lab06.ucf" [current_fileset -constrset]
+Adding file 'C:/Digital Lab/Lab06/Lab06.ucf' to fileset 'constrs_1'
+# set hdlfile [add_files [list {BCDto7SEG.vhd}]]
+# set_property file_type VHDL $hdlfile
+# set_property library work $hdlfile
+# set hdlfile [add_files [list {div.vhf}]]
+# set_property file_type VHDL $hdlfile
+# set_property library work $hdlfile
+# set hdlfile [add_files [list {Display.vhf}]]
+# set_property file_type VHDL $hdlfile
+# set_property library work $hdlfile
+# set hdlfile [add_files [list {Counter.vhf}]]
+# set_property file_type VHDL $hdlfile
+# set_property library work $hdlfile
+# set hdlfile [add_files [list {Lab06.vhf}]]
+# set_property file_type VHDL $hdlfile
+# set_property library work $hdlfile
+# set_property top Lab06 $srcset
+# add_files [list {Lab06.ucf}] -fileset [get_property constrset [current_run]]
+# open_rtl_design -part xc6slx9tqg144-3
+Using Verific elaboration
+Parsing VHDL file "C:/Xilinx/14.7/ISE_DS/PlanAhead/data/parts/xilinx/rtl/lib/synplify/synattr.vhd" into library synplify
+Parsing VHDL file "C:/Xilinx/14.7/ISE_DS/PlanAhead/data/parts/xilinx/rtl/lib/synplify/synattr.vhd" into library synplify
+Parsing VHDL file "C:/Digital Lab/Lab06/BCDto7SEG.vhd" into library work
+Parsing VHDL file "C:/Digital Lab/Lab06/Lab06.vhf" into library work
+Loading clock regions from C:/Xilinx/14.7/ISE_DS/PlanAhead/data\parts/xilinx/spartan6/spartan6lx/xc6slx9/ClockRegion.xml
+Loading clock buffers from C:/Xilinx/14.7/ISE_DS/PlanAhead/data\parts/xilinx/spartan6/spartan6lx/xc6slx9/ClockBuffers.xml
+Loading package pin functions from C:/Xilinx/14.7/ISE_DS/PlanAhead/data\parts/xilinx/spartan6/PinFunctions.xml...
+Loading package from C:/Xilinx/14.7/ISE_DS/PlanAhead/data\parts/xilinx/spartan6/spartan6lx/xc6slx9/tqg144/Package.xml
+Loading io standards from C:/Xilinx/14.7/ISE_DS/PlanAhead/data\./parts/xilinx/spartan6/IOStandards.xml
+Loading device configuration modes from C:/Xilinx/14.7/ISE_DS/PlanAhead/data\parts/xilinx/spartan6/ConfigModes.xml
+Loading list of drcs for the architecture : C:/Xilinx/14.7/ISE_DS/PlanAhead/data\./parts/xilinx/spartan6/drc.xml
+Parsing UCF File [C:/Digital Lab/Lab06/Lab06.ucf]
+Finished Parsing UCF File [C:/Digital Lab/Lab06/Lab06.ucf]
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+Phase 0 | Netlist Checksum: d42ab994
+open_rtl_design: Time (s): elapsed = 00:00:14 . Memory (MB): peak = 609.426 ; gain = 132.961
+update_compile_order -fileset sim_1
+startgroup
+set_property package_pin P44 [get_ports C0_P44]
+endgroup
+save_constraints
+exit
+ERROR: [Common 17-39] 'stop_gui' failed due to earlier errors.
+INFO: [Common 17-206] Exiting PlanAhead at Sat Oct 19 17:57:28 2019...
+INFO: [Common 17-83] Releasing license: PlanAhead

@@ -1,0 +1,83 @@
+Release 14.7 ngdbuild P.20131013 (nt64)
+Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+
+Command Line: C:\Xilinx\14.7\ISE_DS\ISE\bin\nt64\unwrapped\ngdbuild.exe
+-intstyle ise -dd _ngo -nt timestamp -uc Lab_05A_1.ucf -p xc6slx9-tqg144-3
+Lab_05A_2.ngc Lab_05A_2.ngd
+
+Reading NGO file "C:/Digital Lab/Lab_05A/Lab_05A_2.ngc" ...
+Gathering constraint information from source properties...
+Done.
+
+Annotating constraints to design from ucf file "Lab_05A_1.ucf" ...
+Resolving constraint associations...
+Checking Constraint Associations...
+ERROR:ConstraintSystem:59 - Constraint <NET "L0_P82" LOC = P82;>
+   [Lab_05A_1.ucf(3)]: NET "L0_P82" not found.  Please verify that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+WARNING:ConstraintSystem - A target design object for the Locate constraint
+   '<NET "L0_P82" LOC = P82;> [Lab_05A_1.ucf(3)]' could not be found and so the
+   Locate constraint will be removed.
+
+ERROR:ConstraintSystem:59 - Constraint <NET "L1_P81" LOC = P81;>
+   [Lab_05A_1.ucf(4)]: NET "L1_P81" not found.  Please verify that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+WARNING:ConstraintSystem - A target design object for the Locate constraint
+   '<NET "L1_P81" LOC = P81;> [Lab_05A_1.ucf(4)]' could not be found and so the
+   Locate constraint will be removed.
+
+ERROR:ConstraintSystem:59 - Constraint <NET "PB1_P45" LOC = P45;>
+   [Lab_05A_1.ucf(5)]: NET "PB1_P45" not found.  Please verify that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+WARNING:ConstraintSystem - A target design object for the Locate constraint
+   '<NET "PB1_P45" LOC = P45;> [Lab_05A_1.ucf(5)]' could not be found and so the
+   Locate constraint will be removed.
+
+ERROR:ConstraintSystem:59 - Constraint <NET "SW3_P59" LOC = P59;>
+   [Lab_05A_1.ucf(8)]: NET "SW3_P59" not found.  Please verify that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+WARNING:ConstraintSystem - A target design object for the Locate constraint
+   '<NET "SW3_P59" LOC = P59;> [Lab_05A_1.ucf(8)]' could not be found and so the
+   Locate constraint will be removed.
+
+ERROR:ConstraintSystem:59 - Constraint <NET "PB1_P45" CLOCK_DEDICATED_ROUTE =
+   FALSE;> [Lab_05A_1.ucf(10)]: NET "PB1_P45" not found.  Please verify that:
+   1. The specified design element actually exists in the original design.
+   2. The specified object is spelled correctly in the constraint source file.
+
+Done...
+
+Checking expanded design ...
+ERROR:NgdBuild:604 - logical block 'XLXI_1' with type 'bcd_7seg' could not be
+   resolved. A pin name misspelling can cause this, a missing edif or ngc file,
+   case mismatch between the block name and the edif or ngc file name, or the
+   misspelling of a type name. Symbol 'bcd_7seg' is not supported in target
+   'spartan6'.
+
+Partition Implementation Status
+-------------------------------
+
+  No Partitions were found in this design.
+
+-------------------------------
+
+NGDBUILD Design Results Summary:
+  Number of errors:     6
+  Number of warnings:   4
+
+Total memory usage is 4420048 kilobytes
+
+Total REAL time to NGDBUILD completion:  4 sec
+Total CPU time to NGDBUILD completion:   3 sec
+
+One or more errors were found during NGDBUILD.  No NGD file will be written.
+
+Writing NGDBUILD log file "Lab_05A_2.bld"...

@@ -1,0 +1,4 @@
+xst -intstyle ise -ifn "C:/Digital Lab/Lab05/Lab05_01.xst" -ofn "C:/Digital Lab/Lab05/Lab05_01.syr" 
+xst -intstyle ise -ifn "C:/Digital Lab/Lab05/Lab05_01.xst" -ofn "C:/Digital Lab/Lab05/Lab05_01.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc Lab05_01.ucf -p xc6slx9-tqg144-3 "Lab05_01.ngc" Lab05_01.ngd  
+map -intstyle ise -p xc6slx9-tqg144-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o Lab05_01_map.ncd Lab05_01.ngd Lab05_01.pcf 

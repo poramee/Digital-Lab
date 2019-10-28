@@ -1,0 +1,2 @@
+vhdtdtfi -lib work adder8.vhd -prj Lab8 -o adder8.spl -module adder8 -template C:/Xilinx/14.7/ISE_DS/ISE//data/splfile.tft -deleteonerror 
+vhdtdtfi -lib work adder8.vhd -prj Lab8 -o adder8.spl -module adder8 -template C:/Xilinx/14.7/ISE_DS/ISE//data/splfile.tft -deleteonerror 

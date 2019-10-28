@@ -1,0 +1,5 @@
+vhdl work "BCDto7SEG.vhd"
+vhdl work "div.vhf"
+vhdl work "Display.vhf"
+vhdl work "Counter.vhf"
+vhdl work "Lab06.vhf"

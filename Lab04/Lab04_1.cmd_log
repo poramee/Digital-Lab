@@ -1,0 +1,2 @@
+xst -intstyle ise -ifn "C:/Digital Lab/Lab04/Lab04_1.xst" -ofn "C:/Digital Lab/Lab04/Lab04_1.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc Lab04_1.ucf -p xc6slx9-tqg144-3 "Lab04_1.ngc" Lab04_1.ngd  

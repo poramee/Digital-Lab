@@ -1,0 +1,35 @@
+////////////////////////////////////////////////////////////////////////////////
+// Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+////////////////////////////////////////////////////////////////////////////////
+//   ____  ____ 
+//  /   /\/   / 
+// /___/  \  /    Vendor: Xilinx 
+// \   \   \/     Version : 14.7
+//  \   \         Application : sch2hdl
+//  /   /         Filename : Lab04_1.vf
+// /___/   /\     Timestamp : 09/09/2019 09:33:01
+// \   \  /  \ 
+//  \___\/\___\ 
+//
+//Command: sch2hdl -intstyle ise -family spartan3 -verilog "C:/Digital Lab/Lab04/Lab04_1.vf" -w "C:/Digital Lab/Lab04/Lab04_1.sch"
+//Design Name: Lab04_1
+//Device: spartan3
+//Purpose:
+//    This verilog netlist is translated from an ECS schematic.It can be 
+//    synthesized and simulated, but it should not be modified. 
+//
+`timescale 1ns / 1ps
+
+module Lab04_1(SW1_P24, 
+               SW1_P25, 
+               LED1_33);
+
+    input SW1_P24;
+    input SW1_P25;
+   output LED1_33;
+   
+   
+   AND2  XLXI_1 (.I0(SW1_P25), 
+                .I1(SW1_P24), 
+                .O(LED1_33));
+endmodule

@@ -1,0 +1,20 @@
+#-----------------------------------------------------------
+# PlanAhead v14.7 (64-bit)
+# Build 321239 by xbuild on Fri Sep 27 19:29:51 MDT 2013
+# Start of session at: Mon Sep 16 09:26:11 2019
+# Process ID: 2708
+# Log file: C:/Digital Lab/Lab05/planAhead_run_1/planAhead.log
+# Journal file: C:/Digital Lab/Lab05/planAhead_run_1/planAhead.jou
+#-----------------------------------------------------------
+INFO: [Common 17-78] Attempting to get a license: PlanAhead
+INFO: [Common 17-290] Got license for PlanAhead
+INFO: [Device 21-36] Loading parts and site information from C:/Xilinx/14.7/ISE_DS/PlanAhead/data/parts/arch.xml
+Parsing RTL primitives file [C:/Xilinx/14.7/ISE_DS/PlanAhead/data/parts/xilinx/rtl/prims/rtl_prims.xml]
+Finished parsing RTL primitives file [C:/Xilinx/14.7/ISE_DS/PlanAhead/data/parts/xilinx/rtl/prims/rtl_prims.xml]
+start_gui
+source {C:/Digital Lab/Lab05/pa.fromHdl.tcl}
+# create_project -name Lab05 -dir "C:/Digital Lab/Lab05/planAhead_run_1" -part xc6slx9tqg144-3
+INFO: [Common 17-41] Interrupt caught. Command should exit soon.
+create_project: Time (s): elapsed = 00:00:09 . Memory (MB): peak = 439.133 ; gain = 60.754
+INFO: [Common 17-344] 'create_project' was cancelled
+INFO: [Common 17-344] 'source' was cancelled

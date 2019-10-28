@@ -1,0 +1,11 @@
+sch2sym -intstyle ise -family spartan6 -refsym Display {C:/Digital Lab/Lab06/Display.sch} {C:/Digital Lab/Lab06/Display.sym} 
+sch2sym -intstyle ise -family spartan6 -refsym Display {C:/Digital Lab/Lab06/Display.sch} {C:/Digital Lab/Lab06/Display.sym} 
+sch2sym -intstyle ise -family spartan6 -w -refsym Display {C:/Digital Lab/Lab06/Display.sch} {C:/Digital Lab/Lab06/Display.sym} 
+sch2sym -intstyle ise -family spartan6 -w -refsym Display {C:/Digital Lab/Lab06/Display.sch} {C:/Digital Lab/Lab06/Display.sym} 
+sch2sym -intstyle ise -family spartan6 -w -refsym Display {C:/Digital Lab/Lab06/Display.sch} {C:/Digital Lab/Lab06/Display.sym} 
+sch2sym -intstyle ise -family spartan6 -w -refsym Display {C:/Digital Lab/Lab06/Display.sch} {C:/Digital Lab/Lab06/Display.sym} 
+sch2sym -intstyle ise -family spartan6 -w -refsym Display {C:/Digital Lab/Lab06/Display.sch} {C:/Digital Lab/Lab06/Display.sym} 
+sch2vhdl -intstyle ise -family spartan6 -tionly -w {C:/Digital Lab/Lab06/Display.sch} Display.vhi 
+sch2sym -intstyle ise -family spartan6 -w -refsym Display {C:/Digital Lab/Lab06/Display.sch} {C:/Digital Lab/Lab06/Display.sym} 
+sch2sym -intstyle ise -family spartan6 -w -refsym Display {C:/Digital Lab/Lab06/Display.sch} {C:/Digital Lab/Lab06/Display.sym} 
+sch2sym -intstyle ise -family spartan6 -w -refsym Display {C:/Digital Lab/Lab06/Display.sch} {C:/Digital Lab/Lab06/Display.sym} 

@@ -1,0 +1,7 @@
+vhdtdtfi -lib work BCDto7SEG.vhd -prj Lab06 -o bcd_7seg.spl -module bcd_7seg -template C:/Xilinx/14.7/ISE_DS/ISE//data/splfile.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan6 bcd_7seg.spl {C:/Digital Lab/Lab06/bcd_7seg.sym} 
+vhdtdtfi -lib work BCDto7SEG.vhd -prj Lab06 -o bcd_7seg.spl -module bcd_7seg -template C:/Xilinx/14.7/ISE_DS/ISE//data/splfile.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan6 -w bcd_7seg.spl {C:/Digital Lab/Lab06/bcd_7seg.sym} 
+vhdtdtfi -prj Lab06 -o "C:/Digital Lab/Lab06/bcd_7seg.vhi" -module bcd_7seg -template C:/Xilinx/14.7/ISE_DS/ISE//data/vhdlinst.tft -deleteonerror -lib work BCDto7SEG.vhd 
+vhdtdtfi -lib work BCDto7SEG.vhd -prj Lab06 -o bcd_7seg.spl -module bcd_7seg -template C:/Xilinx/14.7/ISE_DS/ISE//data/splfile.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan6 -w bcd_7seg.spl {C:/Digital Lab/Lab06/bcd_7seg.sym} 

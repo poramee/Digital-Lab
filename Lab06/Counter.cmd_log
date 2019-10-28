@@ -1,0 +1,1 @@
+sch2sym -intstyle ise -family spartan6 -refsym Counter {C:/Digital Lab/Lab06/Counter.sch} {C:/Digital Lab/Lab06/Counter.sym} 

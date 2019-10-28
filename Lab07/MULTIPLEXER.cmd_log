@@ -1,0 +1,4 @@
+sch2sym -intstyle ise -family spartan6 -w -refsym MULTIPLEXER {C:/Digital Lab/Lab07/MULTIPLEXER.sch} {C:/Digital Lab/Lab07/MULTIPLEXER.sym} 
+sch2sym -intstyle ise -family spartan6 -w -refsym MULTIPLEXER {C:/Digital Lab/Lab07/MULTIPLEXER.sch} {C:/Digital Lab/Lab07/MULTIPLEXER.sym} 
+sch2sym -intstyle ise -family spartan6 -w -refsym MULTIPLEXER {C:/Digital Lab/Lab07/MULTIPLEXER.sch} {C:/Digital Lab/Lab07/MULTIPLEXER.sym} 
+sch2sym -intstyle ise -family spartan6 -w -refsym MULTIPLEXER {C:/Digital Lab/Lab07/MULTIPLEXER.sch} {C:/Digital Lab/Lab07/MULTIPLEXER.sym} 

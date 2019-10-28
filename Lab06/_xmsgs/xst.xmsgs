@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- IMPORTANT: This is an internal file that has been generated
+     by the Xilinx ISE software.  Any direct editing or
+     changes made to this file may result in unpredictable
+     behavior or data corruption.  It is strongly advised that
+     users do not edit the contents of this file. -->
+<messages>
+<msg type="warning" file="HDLCompiler" num="634" delta="old" >"C:\Digital Lab\Lab06\Lab06.vhf" Line 228: Net &lt;<arg fmt="%s" index="1">XLXI_2_CLR_openSignal</arg>&gt; does not have a driver.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="634" delta="old" >"C:\Digital Lab\Lab06\Lab06.vhf" Line 229: Net &lt;<arg fmt="%s" index="1">XLXI_3_CLR_openSignal</arg>&gt; does not have a driver.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="634" delta="old" >"C:\Digital Lab\Lab06\Lab06.vhf" Line 230: Net &lt;<arg fmt="%s" index="1">XLXI_15_CLR_openSignal</arg>&gt; does not have a driver.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="634" delta="old" >"C:\Digital Lab\Lab06\Lab06.vhf" Line 231: Net &lt;<arg fmt="%s" index="1">XLXI_24_CLR_openSignal</arg>&gt; does not have a driver.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="634" delta="old" >"C:\Digital Lab\Lab06\Lab06.vhf" Line 232: Net &lt;<arg fmt="%s" index="1">XLXI_33_CLR_openSignal</arg>&gt; does not have a driver.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="634" delta="old" >"C:\Digital Lab\Lab06\Lab06.vhf" Line 233: Net &lt;<arg fmt="%s" index="1">XLXI_35_CLR_openSignal</arg>&gt; does not have a driver.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="634" delta="old" >"C:\Digital Lab\Lab06\Lab06.vhf" Line 234: Net &lt;<arg fmt="%s" index="1">XLXI_36_CLR_openSignal</arg>&gt; does not have a driver.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="634" delta="old" >"C:\Digital Lab\Lab06\Lab06.vhf" Line 235: Net &lt;<arg fmt="%s" index="1">XLXI_38_CLR_openSignal</arg>&gt; does not have a driver.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="634" delta="old" >"C:\Digital Lab\Lab06\Lab06.vhf" Line 236: Net &lt;<arg fmt="%s" index="1">XLXI_41_CLR_openSignal</arg>&gt; does not have a driver.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="634" delta="old" >"C:\Digital Lab\Lab06\Lab06.vhf" Line 237: Net &lt;<arg fmt="%s" index="1">XLXI_43_CLR_openSignal</arg>&gt; does not have a driver.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="634" delta="old" >"C:\Digital Lab\Lab06\Lab06.vhf" Line 238: Net &lt;<arg fmt="%s" index="1">XLXI_44_CLR_openSignal</arg>&gt; does not have a driver.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="634" delta="old" >"C:\Digital Lab\Lab06\Lab06.vhf" Line 239: Net &lt;<arg fmt="%s" index="1">XLXI_46_CLR_openSignal</arg>&gt; does not have a driver.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="634" delta="old" >"C:\Digital Lab\Lab06\Lab06.vhf" Line 240: Net &lt;<arg fmt="%s" index="1">XLXI_49_CLR_openSignal</arg>&gt; does not have a driver.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="634" delta="old" >"C:\Digital Lab\Lab06\Lab06.vhf" Line 241: Net &lt;<arg fmt="%s" index="1">XLXI_51_CLR_openSignal</arg>&gt; does not have a driver.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="634" delta="old" >"C:\Digital Lab\Lab06\Lab06.vhf" Line 242: Net &lt;<arg fmt="%s" index="1">XLXI_52_CLR_openSignal</arg>&gt; does not have a driver.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="634" delta="old" >"C:\Digital Lab\Lab06\Lab06.vhf" Line 243: Net &lt;<arg fmt="%s" index="1">XLXI_54_CLR_openSignal</arg>&gt; does not have a driver.
+</msg>
+
+<msg type="warning" file="Xst" num="653" delta="old" >Signal &lt;<arg fmt="%s" index="1">XLXI_2_CLR_openSignal</arg>&gt; is used but never assigned. This sourceless signal will be automatically connected to value <arg fmt="%s" index="2">GND</arg>.
+</msg>
+
+<msg type="warning" file="Xst" num="653" delta="old" >Signal &lt;<arg fmt="%s" index="1">XLXI_3_CLR_openSignal</arg>&gt; is used but never assigned. This sourceless signal will be automatically connected to value <arg fmt="%s" index="2">GND</arg>.
+</msg>
+
+<msg type="warning" file="Xst" num="653" delta="old" >Signal &lt;<arg fmt="%s" index="1">XLXI_15_CLR_openSignal</arg>&gt; is used but never assigned. This sourceless signal will be automatically connected to value <arg fmt="%s" index="2">GND</arg>.
+</msg>
+
+<msg type="warning" file="Xst" num="653" delta="old" >Signal &lt;<arg fmt="%s" index="1">XLXI_24_CLR_openSignal</arg>&gt; is used but never assigned. This sourceless signal will be automatically connected to value <arg fmt="%s" index="2">GND</arg>.
+</msg>
+
+<msg type="warning" file="Xst" num="653" delta="old" >Signal &lt;<arg fmt="%s" index="1">XLXI_33_CLR_openSignal</arg>&gt; is used but never assigned. This sourceless signal will be automatically connected to value <arg fmt="%s" index="2">GND</arg>.
+</msg>
+
+<msg type="warning" file="Xst" num="653" delta="old" >Signal &lt;<arg fmt="%s" index="1">XLXI_35_CLR_openSignal</arg>&gt; is used but never assigned. This sourceless signal will be automatically connected to value <arg fmt="%s" index="2">GND</arg>.
+</msg>
+
+<msg type="warning" file="Xst" num="653" delta="old" >Signal &lt;<arg fmt="%s" index="1">XLXI_36_CLR_openSignal</arg>&gt; is used but never assigned. This sourceless signal will be automatically connected to value <arg fmt="%s" index="2">GND</arg>.
+</msg>
+
+<msg type="warning" file="Xst" num="653" delta="old" >Signal &lt;<arg fmt="%s" index="1">XLXI_38_CLR_openSignal</arg>&gt; is used but never assigned. This sourceless signal will be automatically connected to value <arg fmt="%s" index="2">GND</arg>.
+</msg>
+
+<msg type="warning" file="Xst" num="653" delta="old" >Signal &lt;<arg fmt="%s" index="1">XLXI_41_CLR_openSignal</arg>&gt; is used but never assigned. This sourceless signal will be automatically connected to value <arg fmt="%s" index="2">GND</arg>.
+</msg>
+
+<msg type="warning" file="Xst" num="653" delta="old" >Signal &lt;<arg fmt="%s" index="1">XLXI_43_CLR_openSignal</arg>&gt; is used but never assigned. This sourceless signal will be automatically connected to value <arg fmt="%s" index="2">GND</arg>.
+</msg>
+
+<msg type="warning" file="Xst" num="653" delta="old" >Signal &lt;<arg fmt="%s" index="1">XLXI_44_CLR_openSignal</arg>&gt; is used but never assigned. This sourceless signal will be automatically connected to value <arg fmt="%s" index="2">GND</arg>.
+</msg>
+
+<msg type="warning" file="Xst" num="653" delta="old" >Signal &lt;<arg fmt="%s" index="1">XLXI_46_CLR_openSignal</arg>&gt; is used but never assigned. This sourceless signal will be automatically connected to value <arg fmt="%s" index="2">GND</arg>.
+</msg>
+
+<msg type="warning" file="Xst" num="653" delta="old" >Signal &lt;<arg fmt="%s" index="1">XLXI_49_CLR_openSignal</arg>&gt; is used but never assigned. This sourceless signal will be automatically connected to value <arg fmt="%s" index="2">GND</arg>.
+</msg>
+
+<msg type="warning" file="Xst" num="653" delta="old" >Signal &lt;<arg fmt="%s" index="1">XLXI_51_CLR_openSignal</arg>&gt; is used but never assigned. This sourceless signal will be automatically connected to value <arg fmt="%s" index="2">GND</arg>.
+</msg>
+
+<msg type="warning" file="Xst" num="653" delta="old" >Signal &lt;<arg fmt="%s" index="1">XLXI_52_CLR_openSignal</arg>&gt; is used but never assigned. This sourceless signal will be automatically connected to value <arg fmt="%s" index="2">GND</arg>.
+</msg>
+
+<msg type="warning" file="Xst" num="653" delta="old" >Signal &lt;<arg fmt="%s" index="1">XLXI_54_CLR_openSignal</arg>&gt; is used but never assigned. This sourceless signal will be automatically connected to value <arg fmt="%s" index="2">GND</arg>.
+</msg>
+
+<msg type="info" file="Xst" num="2169" delta="old" >HDL ADVISOR - Some clock signals were not automatically buffered by XST with BUFG/BUFR resources. Please use the buffer_type constraint in order to insert these buffers to the clock signals to help prevent skew problems.
+</msg>
+
+</messages>
+

@@ -1,0 +1,79 @@
+--------------------------------------------------------------------------------
+Release 14.7 Trace  (nt64)
+Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+
+C:\Xilinx\14.7\ISE_DS\ISE\bin\nt64\unwrapped\trce.exe -intstyle ise -v 3 -s 3
+-n 3 -fastpaths -xml Lab05B.twx Lab05B.ncd -o Lab05B.twr Lab05B.pcf -ucf
+Lab05B.ucf
+
+Design file:              Lab05B.ncd
+Physical constraint file: Lab05B.pcf
+Device,package,speed:     xc6slx9,tqg144,C,-3 (PRODUCTION 1.23 2013-10-13)
+Report level:             verbose report
+
+Environment Variable      Effect 
+--------------------      ------ 
+NONE                      No environment variables were set
+--------------------------------------------------------------------------------
+
+INFO:Timing:2698 - No timing constraints found, doing default enumeration.
+INFO:Timing:3412 - To improve timing, see the Timing Closure User Guide (UG612).
+INFO:Timing:2752 - To get complete path coverage, use the unconstrained paths 
+   option. All paths that are not constrained will be reported in the 
+   unconstrained paths section(s) of the report.
+INFO:Timing:3339 - The clock-to-out numbers in this timing report are based on 
+   a 50 Ohm transmission line loading model.  For the details of this model, 
+   and for more information on accounting for different loading conditions, 
+   please see the device datasheet.
+
+
+
+Data Sheet report:
+-----------------
+All values displayed in nanoseconds (ns)
+
+Setup/Hold to clock PB1_P45
+------------+------------+------------+------------+------------+------------------+--------+
+            |Max Setup to|  Process   |Max Hold to |  Process   |                  | Clock  |
+Source      | clk (edge) |   Corner   | clk (edge) |   Corner   |Internal Clock(s) | Phase  |
+------------+------------+------------+------------+------------+------------------+--------+
+SW3_P59     |   -0.471(R)|      FAST  |    1.950(R)|      SLOW  |PB1_P45_BUFGP     |   0.000|
+------------+------------+------------+------------+------------+------------------+--------+
+
+Clock PB1_P45 to Pad
+------------+-----------------+------------+-----------------+------------+------------------+--------+
+            |Max (slowest) clk|  Process   |Min (fastest) clk|  Process   |                  | Clock  |
+Destination |  (edge) to PAD  |   Corner   |  (edge) to PAD  |   Corner   |Internal Clock(s) | Phase  |
+------------+-----------------+------------+-----------------+------------+------------------+--------+
+L0_P82      |        10.170(R)|      SLOW  |         5.565(R)|      FAST  |PB1_P45_BUFGP     |   0.000|
+L1_P81      |         9.872(R)|      SLOW  |         5.399(R)|      FAST  |PB1_P45_BUFGP     |   0.000|
+L2_P80      |         9.658(R)|      SLOW  |         5.249(R)|      FAST  |PB1_P45_BUFGP     |   0.000|
+SEGa_P41    |        12.310(R)|      SLOW  |         6.683(R)|      FAST  |PB1_P45_BUFGP     |   0.000|
+SEGb_P40    |        11.848(R)|      SLOW  |         6.498(R)|      FAST  |PB1_P45_BUFGP     |   0.000|
+SEGc_P35    |        12.031(R)|      SLOW  |         6.476(R)|      FAST  |PB1_P45_BUFGP     |   0.000|
+SEGd_P34    |        12.231(R)|      SLOW  |         6.838(R)|      FAST  |PB1_P45_BUFGP     |   0.000|
+SEGe_P32    |        11.849(R)|      SLOW  |         6.628(R)|      FAST  |PB1_P45_BUFGP     |   0.000|
+SEGf_P29    |        11.040(R)|      SLOW  |         6.006(R)|      FAST  |PB1_P45_BUFGP     |   0.000|
+SEGg_P27    |        11.490(R)|      SLOW  |         6.254(R)|      FAST  |PB1_P45_BUFGP     |   0.000|
+------------+-----------------+------------+-----------------+------------+------------------+--------+
+
+Clock to Setup on destination clock PB1_P45
+---------------+---------+---------+---------+---------+
+               | Src:Rise| Src:Fall| Src:Rise| Src:Fall|
+Source Clock   |Dest:Rise|Dest:Rise|Dest:Fall|Dest:Fall|
+---------------+---------+---------+---------+---------+
+PB1_P45        |    1.258|         |         |         |
+---------------+---------+---------+---------+---------+
+
+
+Analysis completed Mon Oct 07 09:19:24 2019 
+--------------------------------------------------------------------------------
+
+Trace Settings:
+-------------------------
+Trace Settings 
+
+Peak Memory Usage: 4569 MB
+
+
+

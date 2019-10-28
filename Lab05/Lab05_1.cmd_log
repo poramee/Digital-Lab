@@ -1,0 +1,9 @@
+xst -intstyle ise -ifn "C:/Digital Lab/Lab05/Lab05_1.xst" -ofn "C:/Digital Lab/Lab05/Lab05_1.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc Lab05_1.ucf -p xc6slx9-tqg144-3 "Lab05_1.ngc" Lab05_1.ngd  
+map -intstyle ise -p xc6slx9-tqg144-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o Lab05_1_map.ncd Lab05_1.ngd Lab05_1.pcf 
+xst -intstyle ise -ifn "C:/Digital Lab/Lab05/Lab05_1.xst" -ofn "C:/Digital Lab/Lab05/Lab05_1.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc Lab05_1.ucf -p xc6slx9-tqg144-3 "Lab05_1.ngc" Lab05_1.ngd  
+map -intstyle ise -p xc6slx9-tqg144-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o Lab05_1_map.ncd Lab05_1.ngd Lab05_1.pcf 
+xst -intstyle ise -ifn "C:/Digital Lab/Lab05/Lab05_1.xst" -ofn "C:/Digital Lab/Lab05/Lab05_1.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc Lab05_1.ucf -p xc6slx9-tqg144-3 "Lab05_1.ngc" Lab05_1.ngd  
+map -intstyle ise -p xc6slx9-tqg144-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o Lab05_1_map.ncd Lab05_1.ngd Lab05_1.pcf 

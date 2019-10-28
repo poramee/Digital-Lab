@@ -1,0 +1,7 @@
+vhdl work "MULTIPLEXER.vhf"
+vhdl work "counter00_99.vhf"
+vhdl work "counter00_59.vhf"
+vhdl work "CLKDIV2.vhd"
+vhdl work "CLKDIV.vhd"
+vhdl work "BCDto7SEG.vhd"
+vhdl work "Lab07.vhf"

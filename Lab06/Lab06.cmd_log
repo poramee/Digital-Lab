@@ -1,0 +1,81 @@
+xst -intstyle ise -ifn "C:/Digital Lab/Lab06/Lab06.xst" -ofn "C:/Digital Lab/Lab06/Lab06.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc Lab06.ucf -p xc6slx9-tqg144-3 "Lab06.ngc" Lab06.ngd  
+map -intstyle ise -p xc6slx9-tqg144-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o Lab06_map.ncd Lab06.ngd Lab06.pcf 
+par -w -intstyle ise -ol high -mt off Lab06_map.ncd Lab06.ncd Lab06.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml Lab06.twx Lab06.ncd -o Lab06.twr Lab06.pcf -ucf Lab06.ucf 
+bitgen -intstyle ise -f Lab06.ut Lab06.ncd 
+xst -intstyle ise -ifn "C:/Digital Lab/Lab06/Lab06.xst" -ofn "C:/Digital Lab/Lab06/Lab06.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc Lab06.ucf -p xc6slx9-tqg144-3 "Lab06.ngc" Lab06.ngd  
+map -intstyle ise -p xc6slx9-tqg144-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o Lab06_map.ncd Lab06.ngd Lab06.pcf 
+par -w -intstyle ise -ol high -mt off Lab06_map.ncd Lab06.ncd Lab06.pcf 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc Lab06.ucf -p xc6slx9-tqg144-3 "Lab06.ngc" Lab06.ngd  
+map -intstyle ise -p xc6slx9-tqg144-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o Lab06_map.ncd Lab06.ngd Lab06.pcf 
+par -w -intstyle ise -ol high -mt off Lab06_map.ncd Lab06.ncd Lab06.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml Lab06.twx Lab06.ncd -o Lab06.twr Lab06.pcf -ucf Lab06.ucf 
+bitgen -intstyle ise -f Lab06.ut Lab06.ncd 
+xst -intstyle ise -ifn "C:/Digital Lab/Lab06/Lab06.xst" -ofn "C:/Digital Lab/Lab06/Lab06.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc Lab06.ucf -p xc6slx9-tqg144-3 "Lab06.ngc" Lab06.ngd  
+map -intstyle ise -p xc6slx9-tqg144-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o Lab06_map.ncd Lab06.ngd Lab06.pcf 
+par -w -intstyle ise -ol high -mt off Lab06_map.ncd Lab06.ncd Lab06.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml Lab06.twx Lab06.ncd -o Lab06.twr Lab06.pcf -ucf Lab06.ucf 
+bitgen -intstyle ise -f Lab06.ut Lab06.ncd 
+xst -intstyle ise -ifn "C:/Digital Lab/Lab06/Lab06.xst" -ofn "C:/Digital Lab/Lab06/Lab06.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc Lab06.ucf -p xc6slx9-tqg144-3 "Lab06.ngc" Lab06.ngd  
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc Lab06.ucf -p xc6slx9-tqg144-3 "Lab06.ngc" Lab06.ngd  
+xst -intstyle ise -ifn "C:/Digital Lab/Lab06/Lab06.xst" -ofn "C:/Digital Lab/Lab06/Lab06.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc Lab06.ucf -p xc6slx9-tqg144-3 "Lab06.ngc" Lab06.ngd  
+map -intstyle ise -p xc6slx9-tqg144-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o Lab06_map.ncd Lab06.ngd Lab06.pcf 
+par -w -intstyle ise -ol high -mt off Lab06_map.ncd Lab06.ncd Lab06.pcf 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc Lab06.ucf -p xc6slx9-tqg144-3 "Lab06.ngc" Lab06.ngd  
+map -intstyle ise -p xc6slx9-tqg144-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o Lab06_map.ncd Lab06.ngd Lab06.pcf 
+par -w -intstyle ise -ol high -mt off Lab06_map.ncd Lab06.ncd Lab06.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml Lab06.twx Lab06.ncd -o Lab06.twr Lab06.pcf -ucf Lab06.ucf 
+bitgen -intstyle ise -f Lab06.ut Lab06.ncd 
+xst -intstyle ise -ifn "C:/Digital Lab/Lab06/Lab06.xst" -ofn "C:/Digital Lab/Lab06/Lab06.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc Lab06.ucf -p xc6slx9-tqg144-3 "Lab06.ngc" Lab06.ngd  
+map -intstyle ise -p xc6slx9-tqg144-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o Lab06_map.ncd Lab06.ngd Lab06.pcf 
+par -w -intstyle ise -ol high -mt off Lab06_map.ncd Lab06.ncd Lab06.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml Lab06.twx Lab06.ncd -o Lab06.twr Lab06.pcf -ucf Lab06.ucf 
+bitgen -intstyle ise -f Lab06.ut Lab06.ncd 
+xst -intstyle ise -ifn "C:/Digital Lab/Lab06/Lab06.xst" -ofn "C:/Digital Lab/Lab06/Lab06.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc Lab06.ucf -p xc6slx9-tqg144-3 "Lab06.ngc" Lab06.ngd  
+map -intstyle ise -p xc6slx9-tqg144-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o Lab06_map.ncd Lab06.ngd Lab06.pcf 
+par -w -intstyle ise -ol high -mt off Lab06_map.ncd Lab06.ncd Lab06.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml Lab06.twx Lab06.ncd -o Lab06.twr Lab06.pcf -ucf Lab06.ucf 
+bitgen -intstyle ise -f Lab06.ut Lab06.ncd 
+xst -intstyle ise -ifn "C:/Digital Lab/Lab06/Lab06.xst" -ofn "C:/Digital Lab/Lab06/Lab06.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc Lab06.ucf -p xc6slx9-tqg144-3 "Lab06.ngc" Lab06.ngd  
+map -intstyle ise -p xc6slx9-tqg144-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o Lab06_map.ncd Lab06.ngd Lab06.pcf 
+par -w -intstyle ise -ol high -mt off Lab06_map.ncd Lab06.ncd Lab06.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml Lab06.twx Lab06.ncd -o Lab06.twr Lab06.pcf -ucf Lab06.ucf 
+bitgen -intstyle ise -f Lab06.ut Lab06.ncd 
+xst -intstyle ise -ifn "C:/Digital Lab/Lab06/Lab06.xst" -ofn "C:/Digital Lab/Lab06/Lab06.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc Lab06.ucf -p xc6slx9-tqg144-3 "Lab06.ngc" Lab06.ngd  
+map -intstyle ise -p xc6slx9-tqg144-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o Lab06_map.ncd Lab06.ngd Lab06.pcf 
+par -w -intstyle ise -ol high -mt off Lab06_map.ncd Lab06.ncd Lab06.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml Lab06.twx Lab06.ncd -o Lab06.twr Lab06.pcf -ucf Lab06.ucf 
+bitgen -intstyle ise -f Lab06.ut Lab06.ncd 
+xst -intstyle ise -ifn "C:/Digital Lab/Lab06/Lab06.xst" -ofn "C:/Digital Lab/Lab06/Lab06.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc Lab06.ucf -p xc6slx9-tqg144-3 "Lab06.ngc" Lab06.ngd  
+map -intstyle ise -p xc6slx9-tqg144-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o Lab06_map.ncd Lab06.ngd Lab06.pcf 
+par -w -intstyle ise -ol high -mt off Lab06_map.ncd Lab06.ncd Lab06.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml Lab06.twx Lab06.ncd -o Lab06.twr Lab06.pcf -ucf Lab06.ucf 
+bitgen -intstyle ise -f Lab06.ut Lab06.ncd 
+xst -intstyle ise -ifn "C:/Digital Lab/Lab06/Lab06.xst" -ofn "C:/Digital Lab/Lab06/Lab06.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc Lab06.ucf -p xc6slx9-tqg144-3 "Lab06.ngc" Lab06.ngd  
+map -intstyle ise -p xc6slx9-tqg144-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o Lab06_map.ncd Lab06.ngd Lab06.pcf 
+par -w -intstyle ise -ol high -mt off Lab06_map.ncd Lab06.ncd Lab06.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml Lab06.twx Lab06.ncd -o Lab06.twr Lab06.pcf -ucf Lab06.ucf 
+bitgen -intstyle ise -f Lab06.ut Lab06.ncd 
+xst -intstyle ise -ifn "C:/Digital Lab/Lab06/Lab06.xst" -ofn "C:/Digital Lab/Lab06/Lab06.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc Lab06.ucf -p xc6slx9-tqg144-3 "Lab06.ngc" Lab06.ngd  
+map -intstyle ise -p xc6slx9-tqg144-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o Lab06_map.ncd Lab06.ngd Lab06.pcf 
+par -w -intstyle ise -ol high -mt off Lab06_map.ncd Lab06.ncd Lab06.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml Lab06.twx Lab06.ncd -o Lab06.twr Lab06.pcf -ucf Lab06.ucf 
+bitgen -intstyle ise -f Lab06.ut Lab06.ncd 
+xst -intstyle ise -ifn "C:/Digital Lab/Lab06/Lab06.xst" -ofn "C:/Digital Lab/Lab06/Lab06.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc Lab06.ucf -p xc6slx9-tqg144-3 "Lab06.ngc" Lab06.ngd  
+map -intstyle ise -p xc6slx9-tqg144-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o Lab06_map.ncd Lab06.ngd Lab06.pcf 
+par -w -intstyle ise -ol high -mt off Lab06_map.ncd Lab06.ncd Lab06.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml Lab06.twx Lab06.ncd -o Lab06.twr Lab06.pcf -ucf Lab06.ucf 
+bitgen -intstyle ise -f Lab06.ut Lab06.ncd 

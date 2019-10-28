@@ -1,0 +1,3 @@
+MODULE Display
+	SUBMODULE bcd_7segment
+		INSTANCE XLXI_38

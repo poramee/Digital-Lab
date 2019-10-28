@@ -1,0 +1,10 @@
+#-----------------------------------------------------------
+# PlanAhead v14.7 (64-bit)
+# Build 321239 by xbuild on Fri Sep 27 19:29:51 MDT 2013
+# Start of session at: Mon Oct 28 08:56:16 2019
+# Process ID: 5184
+# Log file: C:/Digital Lab/Lab8/planAhead_run_2/planAhead.log
+# Journal file: C:/Digital Lab/Lab8/planAhead_run_2/planAhead.jou
+#-----------------------------------------------------------
+start_gui
+source {C:/Digital Lab/Lab8/pa.fromHdl.tcl}

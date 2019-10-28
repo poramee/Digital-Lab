@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<DARoots Version="1" Minor="26">
+  <FileSet Name="sources_1" Type="DesignSrcs" RelSrcDir="$PSRCDIR/sources_1">
+    <Filter Type="Srcs"/>
+    <File Path="$PPRDIR/../CLKDIV2.vhd">
+      <FileInfo>
+        <Attr Name="UsedInSynthesis" Val="1"/>
+        <Attr Name="UsedInSimulation" Val="1"/>
+      </FileInfo>
+    </File>
+    <File Path="$PPRDIR/../CLKDIV.vhd">
+      <FileInfo>
+        <Attr Name="UsedInSynthesis" Val="1"/>
+        <Attr Name="UsedInSimulation" Val="1"/>
+      </FileInfo>
+    </File>
+    <File Path="$PPRDIR/../BCDto7SEG.vhd">
+      <FileInfo>
+        <Attr Name="UsedInSynthesis" Val="1"/>
+        <Attr Name="UsedInSimulation" Val="1"/>
+      </FileInfo>
+    </File>
+    <File Path="$PPRDIR/../Lab07.vhf">
+      <FileInfo>
+        <Attr Name="UsedInSynthesis" Val="1"/>
+        <Attr Name="UsedInSimulation" Val="1"/>
+      </FileInfo>
+    </File>
+    <File Path="$PPRDIR/../MULTIPLEXER.vhf">
+      <FileInfo>
+        <Attr Name="UsedInSynthesis" Val="1"/>
+        <Attr Name="UsedInSimulation" Val="1"/>
+      </FileInfo>
+    </File>
+    <File Path="$PPRDIR/../counter00_99.vhf">
+      <FileInfo>
+        <Attr Name="UsedInSynthesis" Val="1"/>
+        <Attr Name="UsedInSimulation" Val="1"/>
+      </FileInfo>
+    </File>
+    <File Path="$PPRDIR/../counter00_59.vhf">
+      <FileInfo>
+        <Attr Name="UsedInSynthesis" Val="1"/>
+        <Attr Name="UsedInSimulation" Val="1"/>
+      </FileInfo>
+    </File>
+    <Config>
+      <Option Name="DesignMode" Val="RTL"/>
+      <Option Name="TopModule" Val="Lab07"/>
+    </Config>
+  </FileSet>
+</DARoots>

@@ -1,0 +1,2 @@
+vhdtdtfi -lib work {C:/Digital Lab/Lab06/CLK.v} -lang verilog -prj Lab06 -o clk_1.spl -module clk_1 -template C:/Xilinx/14.7/ISE_DS/ISE//data/splveri.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan6 -w clk_1.spl {C:/Digital Lab/Lab06/clk_1.sym} 

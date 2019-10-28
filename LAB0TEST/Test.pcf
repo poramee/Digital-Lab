@@ -1,0 +1,11 @@
+//! **************************************************************************
+// Written by: Map P.20131013 on Mon Sep 09 11:03:38 2019
+//! **************************************************************************
+
+SCHEMATIC START;
+COMP "SW0_P55" LOCATE = SITE "P55" LEVEL 1;
+COMP "SW1_P56" LOCATE = SITE "P56" LEVEL 1;
+COMP "LED0_P67" LOCATE = SITE "P67" LEVEL 1;
+COMP "LED1_P74" LOCATE = SITE "P74" LEVEL 1;
+SCHEMATIC END;
+

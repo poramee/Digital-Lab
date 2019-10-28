@@ -1,0 +1,89 @@
+sch2sym -intstyle ise -family spartan6 -refsym Lab05B {C:/Digital Lab/Lab05B/Lab05B.sch} {C:/Digital Lab/Lab05B/Lab05B.sym} 
+xst -intstyle ise -ifn "C:/Digital Lab/Lab05B/Lab05B.xst" -ofn "C:/Digital Lab/Lab05B/Lab05B.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc Lab05B.ucf -p xc6slx9-tqg144-3 "Lab05B.ngc" Lab05B.ngd  
+map -intstyle ise -p xc6slx9-tqg144-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o Lab05B_map.ncd Lab05B.ngd Lab05B.pcf 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc Lab05B.ucf -p xc6slx9-tqg144-3 "Lab05B.ngc" Lab05B.ngd  
+map -intstyle ise -p xc6slx9-tqg144-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o Lab05B_map.ncd Lab05B.ngd Lab05B.pcf 
+par -w -intstyle ise -ol high -mt off Lab05B_map.ncd Lab05B.ncd Lab05B.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml Lab05B.twx Lab05B.ncd -o Lab05B.twr Lab05B.pcf -ucf Lab05B.ucf 
+xst -intstyle ise -ifn "C:/Digital Lab/Lab05B/Lab05B.xst" -ofn "C:/Digital Lab/Lab05B/Lab05B.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc Lab05B.ucf -p xc6slx9-tqg144-3 "Lab05B.ngc" Lab05B.ngd  
+map -intstyle ise -p xc6slx9-tqg144-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o Lab05B_map.ncd Lab05B.ngd Lab05B.pcf 
+par -w -intstyle ise -ol high -mt off Lab05B_map.ncd Lab05B.ncd Lab05B.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml Lab05B.twx Lab05B.ncd -o Lab05B.twr Lab05B.pcf -ucf Lab05B.ucf 
+bitgen -intstyle ise -f Lab05B.ut Lab05B.ncd 
+xst -intstyle ise -ifn "C:/Digital Lab/Lab05B/Lab05B.xst" -ofn "C:/Digital Lab/Lab05B/Lab05B.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc Lab05B.ucf -p xc6slx9-tqg144-3 "Lab05B.ngc" Lab05B.ngd  
+map -intstyle ise -p xc6slx9-tqg144-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o Lab05B_map.ncd Lab05B.ngd Lab05B.pcf 
+par -w -intstyle ise -ol high -mt off Lab05B_map.ncd Lab05B.ncd Lab05B.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml Lab05B.twx Lab05B.ncd -o Lab05B.twr Lab05B.pcf -ucf Lab05B.ucf 
+bitgen -intstyle ise -f Lab05B.ut Lab05B.ncd 
+xst -intstyle ise -ifn "C:/Digital Lab/Lab05B/Lab05B.xst" -ofn "C:/Digital Lab/Lab05B/Lab05B.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc Lab05B.ucf -p xc6slx9-tqg144-3 "Lab05B.ngc" Lab05B.ngd  
+map -intstyle ise -p xc6slx9-tqg144-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o Lab05B_map.ncd Lab05B.ngd Lab05B.pcf 
+par -w -intstyle ise -ol high -mt off Lab05B_map.ncd Lab05B.ncd Lab05B.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml Lab05B.twx Lab05B.ncd -o Lab05B.twr Lab05B.pcf -ucf Lab05B.ucf 
+bitgen -intstyle ise -f Lab05B.ut Lab05B.ncd 
+xst -intstyle ise -ifn "C:/Digital Lab/Lab05B/Lab05B.xst" -ofn "C:/Digital Lab/Lab05B/Lab05B.syr" 
+xst -intstyle ise -ifn "C:/Digital Lab/Lab05B/Lab05B.xst" -ofn "C:/Digital Lab/Lab05B/Lab05B.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc Lab05B.ucf -p xc6slx9-tqg144-3 "Lab05B.ngc" Lab05B.ngd  
+map -intstyle ise -p xc6slx9-tqg144-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o Lab05B_map.ncd Lab05B.ngd Lab05B.pcf 
+par -w -intstyle ise -ol high -mt off Lab05B_map.ncd Lab05B.ncd Lab05B.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml Lab05B.twx Lab05B.ncd -o Lab05B.twr Lab05B.pcf -ucf Lab05B.ucf 
+bitgen -intstyle ise -f Lab05B.ut Lab05B.ncd 
+xst -intstyle ise -ifn "C:/Digital Lab/Lab05B/Lab05B.xst" -ofn "C:/Digital Lab/Lab05B/Lab05B.syr" 
+xst -intstyle ise -ifn "C:/Digital Lab/Lab05B/Lab05B.xst" -ofn "C:/Digital Lab/Lab05B/Lab05B.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc Lab05B.ucf -p xc6slx9-tqg144-3 "Lab05B.ngc" Lab05B.ngd  
+map -intstyle ise -p xc6slx9-tqg144-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o Lab05B_map.ncd Lab05B.ngd Lab05B.pcf 
+par -w -intstyle ise -ol high -mt off Lab05B_map.ncd Lab05B.ncd Lab05B.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml Lab05B.twx Lab05B.ncd -o Lab05B.twr Lab05B.pcf -ucf Lab05B.ucf 
+bitgen -intstyle ise -f Lab05B.ut Lab05B.ncd 
+xst -intstyle ise -ifn "C:/Digital Lab/Lab05B/Lab05B.xst" -ofn "C:/Digital Lab/Lab05B/Lab05B.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc Lab05B.ucf -p xc6slx9-tqg144-3 "Lab05B.ngc" Lab05B.ngd  
+map -intstyle ise -p xc6slx9-tqg144-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o Lab05B_map.ncd Lab05B.ngd Lab05B.pcf 
+par -w -intstyle ise -ol high -mt off Lab05B_map.ncd Lab05B.ncd Lab05B.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml Lab05B.twx Lab05B.ncd -o Lab05B.twr Lab05B.pcf -ucf Lab05B.ucf 
+bitgen -intstyle ise -f Lab05B.ut Lab05B.ncd 
+xst -intstyle ise -ifn "C:/Digital Lab/Lab05B/Lab05B.xst" -ofn "C:/Digital Lab/Lab05B/Lab05B.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc Lab05B.ucf -p xc6slx9-tqg144-3 "Lab05B.ngc" Lab05B.ngd  
+map -intstyle ise -p xc6slx9-tqg144-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o Lab05B_map.ncd Lab05B.ngd Lab05B.pcf 
+par -w -intstyle ise -ol high -mt off Lab05B_map.ncd Lab05B.ncd Lab05B.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml Lab05B.twx Lab05B.ncd -o Lab05B.twr Lab05B.pcf -ucf Lab05B.ucf 
+bitgen -intstyle ise -f Lab05B.ut Lab05B.ncd 
+xst -intstyle ise -ifn "C:/Digital Lab/Lab05B/Lab05B.xst" -ofn "C:/Digital Lab/Lab05B/Lab05B.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc Lab05B.ucf -p xc6slx9-tqg144-3 "Lab05B.ngc" Lab05B.ngd  
+map -intstyle ise -p xc6slx9-tqg144-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o Lab05B_map.ncd Lab05B.ngd Lab05B.pcf 
+par -w -intstyle ise -ol high -mt off Lab05B_map.ncd Lab05B.ncd Lab05B.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml Lab05B.twx Lab05B.ncd -o Lab05B.twr Lab05B.pcf -ucf Lab05B.ucf 
+bitgen -intstyle ise -f Lab05B.ut Lab05B.ncd 
+xst -intstyle ise -ifn "C:/Digital Lab/Lab05B/Lab05B.xst" -ofn "C:/Digital Lab/Lab05B/Lab05B.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc Lab05B.ucf -p xc6slx9-tqg144-3 "Lab05B.ngc" Lab05B.ngd  
+map -intstyle ise -p xc6slx9-tqg144-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o Lab05B_map.ncd Lab05B.ngd Lab05B.pcf 
+par -w -intstyle ise -ol high -mt off Lab05B_map.ncd Lab05B.ncd Lab05B.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml Lab05B.twx Lab05B.ncd -o Lab05B.twr Lab05B.pcf -ucf Lab05B.ucf 
+bitgen -intstyle ise -f Lab05B.ut Lab05B.ncd 
+xst -intstyle ise -ifn "C:/Digital Lab/Lab05B/Lab05B.xst" -ofn "C:/Digital Lab/Lab05B/Lab05B.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc Lab05B.ucf -p xc6slx9-tqg144-3 "Lab05B.ngc" Lab05B.ngd  
+map -intstyle ise -p xc6slx9-tqg144-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o Lab05B_map.ncd Lab05B.ngd Lab05B.pcf 
+par -w -intstyle ise -ol high -mt off Lab05B_map.ncd Lab05B.ncd Lab05B.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml Lab05B.twx Lab05B.ncd -o Lab05B.twr Lab05B.pcf -ucf Lab05B.ucf 
+bitgen -intstyle ise -f Lab05B.ut Lab05B.ncd 
+xst -intstyle ise -ifn "C:/Digital Lab/Lab05B/Lab05B.xst" -ofn "C:/Digital Lab/Lab05B/Lab05B.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc Lab05B.ucf -p xc6slx9-tqg144-3 "Lab05B.ngc" Lab05B.ngd  
+map -intstyle ise -p xc6slx9-tqg144-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o Lab05B_map.ncd Lab05B.ngd Lab05B.pcf 
+par -w -intstyle ise -ol high -mt off Lab05B_map.ncd Lab05B.ncd Lab05B.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml Lab05B.twx Lab05B.ncd -o Lab05B.twr Lab05B.pcf -ucf Lab05B.ucf 
+bitgen -intstyle ise -f Lab05B.ut Lab05B.ncd 
+xst -intstyle ise -ifn "C:/Digital Lab/Lab05B/Lab05B.xst" -ofn "C:/Digital Lab/Lab05B/Lab05B.syr" 
+xst -intstyle ise -ifn "C:/Digital Lab/Lab05B/Lab05B.xst" -ofn "C:/Digital Lab/Lab05B/Lab05B.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc Lab05B.ucf -p xc6slx9-tqg144-3 "Lab05B.ngc" Lab05B.ngd  
+map -intstyle ise -p xc6slx9-tqg144-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o Lab05B_map.ncd Lab05B.ngd Lab05B.pcf 
+par -w -intstyle ise -ol high -mt off Lab05B_map.ncd Lab05B.ncd Lab05B.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml Lab05B.twx Lab05B.ncd -o Lab05B.twr Lab05B.pcf -ucf Lab05B.ucf 
+bitgen -intstyle ise -f Lab05B.ut Lab05B.ncd 
+xst -intstyle ise -ifn "C:/Digital Lab/Lab05B/Lab05B.xst" -ofn "C:/Digital Lab/Lab05B/Lab05B.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc Lab05B.ucf -p xc6slx9-tqg144-3 "Lab05B.ngc" Lab05B.ngd  
+map -intstyle ise -p xc6slx9-tqg144-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o Lab05B_map.ncd Lab05B.ngd Lab05B.pcf 
+par -w -intstyle ise -ol high -mt off Lab05B_map.ncd Lab05B.ncd Lab05B.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml Lab05B.twx Lab05B.ncd -o Lab05B.twr Lab05B.pcf -ucf Lab05B.ucf 
+bitgen -intstyle ise -f Lab05B.ut Lab05B.ncd 

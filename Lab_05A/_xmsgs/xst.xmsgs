@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- IMPORTANT: This is an internal file that has been generated
+     by the Xilinx ISE software.  Any direct editing or
+     changes made to this file may result in unpredictable
+     behavior or data corruption.  It is strongly advised that
+     users do not edit the contents of this file. -->
+<messages>
+<msg type="warning" file="HDLCompiler" num="89" delta="new" >"C:\Digital Lab\Lab_05A\Lab_05A_2.vhf" Line 100: &lt;<arg fmt="%s" index="1">bcd_7seg</arg>&gt; remains a black-box since it has no binding entity.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="634" delta="new" >"C:\Digital Lab\Lab_05A\Lab_05A_2.vhf" Line 96: Net &lt;<arg fmt="%s" index="1">XLXI_1_B3_openSignal</arg>&gt; does not have a driver.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="634" delta="new" >"C:\Digital Lab\Lab_05A\Lab_05A_2.vhf" Line 97: Net &lt;<arg fmt="%s" index="1">XLXI_3_CLR_openSignal</arg>&gt; does not have a driver.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="634" delta="new" >"C:\Digital Lab\Lab_05A\Lab_05A_2.vhf" Line 98: Net &lt;<arg fmt="%s" index="1">XLXI_4_CLR_openSignal</arg>&gt; does not have a driver.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="634" delta="new" >"C:\Digital Lab\Lab_05A\Lab_05A_2.vhf" Line 99: Net &lt;<arg fmt="%s" index="1">XLXI_5_CLR_openSignal</arg>&gt; does not have a driver.
+</msg>
+
+<msg type="warning" file="Xst" num="653" delta="new" >Signal &lt;<arg fmt="%s" index="1">XLXI_1_B3_openSignal</arg>&gt; is used but never assigned. This sourceless signal will be automatically connected to value <arg fmt="%s" index="2">GND</arg>.
+</msg>
+
+<msg type="warning" file="Xst" num="653" delta="new" >Signal &lt;<arg fmt="%s" index="1">XLXI_3_CLR_openSignal</arg>&gt; is used but never assigned. This sourceless signal will be automatically connected to value <arg fmt="%s" index="2">GND</arg>.
+</msg>
+
+<msg type="warning" file="Xst" num="653" delta="new" >Signal &lt;<arg fmt="%s" index="1">XLXI_4_CLR_openSignal</arg>&gt; is used but never assigned. This sourceless signal will be automatically connected to value <arg fmt="%s" index="2">GND</arg>.
+</msg>
+
+<msg type="warning" file="Xst" num="653" delta="new" >Signal &lt;<arg fmt="%s" index="1">XLXI_5_CLR_openSignal</arg>&gt; is used but never assigned. This sourceless signal will be automatically connected to value <arg fmt="%s" index="2">GND</arg>.
+</msg>
+
+<msg type="warning" file="Xst" num="2036" delta="new" >Inserting OBUF on port &lt;<arg fmt="%s" index="1">SEGa_P41</arg>&gt; driven by black box &lt;<arg fmt="%s" index="2">bcd_7seg</arg>&gt;. Possible simulation mismatch.
+</msg>
+
+<msg type="warning" file="Xst" num="2036" delta="new" >Inserting OBUF on port &lt;<arg fmt="%s" index="1">SEGb_P40</arg>&gt; driven by black box &lt;<arg fmt="%s" index="2">bcd_7seg</arg>&gt;. Possible simulation mismatch.
+</msg>
+
+<msg type="warning" file="Xst" num="2036" delta="new" >Inserting OBUF on port &lt;<arg fmt="%s" index="1">SEGc_P35</arg>&gt; driven by black box &lt;<arg fmt="%s" index="2">bcd_7seg</arg>&gt;. Possible simulation mismatch.
+</msg>
+
+<msg type="warning" file="Xst" num="2036" delta="new" >Inserting OBUF on port &lt;<arg fmt="%s" index="1">SEGd_P34</arg>&gt; driven by black box &lt;<arg fmt="%s" index="2">bcd_7seg</arg>&gt;. Possible simulation mismatch.
+</msg>
+
+<msg type="warning" file="Xst" num="2036" delta="new" >Inserting OBUF on port &lt;<arg fmt="%s" index="1">SEGe_P32</arg>&gt; driven by black box &lt;<arg fmt="%s" index="2">bcd_7seg</arg>&gt;. Possible simulation mismatch.
+</msg>
+
+<msg type="warning" file="Xst" num="2036" delta="new" >Inserting OBUF on port &lt;<arg fmt="%s" index="1">SEGf_P29</arg>&gt; driven by black box &lt;<arg fmt="%s" index="2">bcd_7seg</arg>&gt;. Possible simulation mismatch.
+</msg>
+
+<msg type="warning" file="Xst" num="2036" delta="new" >Inserting OBUF on port &lt;<arg fmt="%s" index="1">SEGg_P27</arg>&gt; driven by black box &lt;<arg fmt="%s" index="2">bcd_7seg</arg>&gt;. Possible simulation mismatch.
+</msg>
+
+</messages>
+
