@@ -1,0 +1,4 @@
+vhdtdtfi -lib work SHIFTLEFT.vhd -prj Lab09 -o SHIFTLEFT.spl -module SHIFTLEFT -template C:/Xilinx/14.7/ISE_DS/ISE//data/splfile.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan6 -w SHIFTLEFT.spl {C:/Digital Lab/Lab09/SHIFTLEFT.sym} 
+vhdtdtfi -lib work SHIFTLEFT.vhd -prj Lab09 -o SHIFTLEFT.spl -module SHIFTLEFT -template C:/Xilinx/14.7/ISE_DS/ISE//data/splfile.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan6 -w SHIFTLEFT.spl {C:/Digital Lab/Lab09/SHIFTLEFT.sym} 

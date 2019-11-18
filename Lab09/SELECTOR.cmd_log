@@ -1,0 +1,11 @@
+vhdtdtfi -lib work SELECTOR.vhd -prj Lab09 -o SELECTOR.spl -module SELECTOR -template C:/Xilinx/14.7/ISE_DS/ISE//data/splfile.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan6 -w SELECTOR.spl {C:/Digital Lab/Lab09/SELECTOR.sym} 
+vhdtdtfi -lib work SELECTOR.vhd -prj Lab09 -o SELECTOR.spl -module SELECTOR -template C:/Xilinx/14.7/ISE_DS/ISE//data/splfile.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan6 -w SELECTOR.spl {C:/Digital Lab/Lab09/SELECTOR.sym} 
+sch2sym -intstyle ise -family spartan6 -w -refsym SELECTOR {C:/Digital Lab/Lab09/SELECTOR.sch} {C:/Digital Lab/Lab09/SELECTOR.sym} 
+sch2sym -intstyle ise -family spartan6 -w -refsym SELECTOR {C:/Digital Lab/Lab09/SELECTOR.sch} {C:/Digital Lab/Lab09/SELECTOR.sym} 
+sch2sym -intstyle ise -family spartan6 -w -refsym SELECTOR {C:/Digital Lab/Lab09/SELECTOR.sch} {C:/Digital Lab/Lab09/SELECTOR.sym} 
+sch2sym -intstyle ise -family spartan6 -w -refsym SELECTOR {C:/Digital Lab/Lab09/SELECTOR.sch} {C:/Digital Lab/Lab09/SELECTOR.sym} 
+sch2sym -intstyle ise -family spartan6 -w -refsym SELECTOR {C:/Digital Lab/Lab09/SELECTOR.sch} {C:/Digital Lab/Lab09/SELECTOR.sym} 
+sch2sym -intstyle ise -family spartan6 -w -refsym SELECTOR {C:/Digital Lab/Lab09/SELECTOR.sch} {C:/Digital Lab/Lab09/SELECTOR.sym} 
+sch2sym -intstyle ise -family spartan6 -w -refsym SELECTOR {C:/Digital Lab/Lab09/SELECTOR.sch} {C:/Digital Lab/Lab09/SELECTOR.sym} 

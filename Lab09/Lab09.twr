@@ -1,0 +1,271 @@
+--------------------------------------------------------------------------------
+Release 14.7 Trace  (nt64)
+Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+
+C:\Xilinx\14.7\ISE_DS\ISE\bin\nt64\unwrapped\trce.exe -intstyle ise -v 3 -s 3
+-n 3 -fastpaths -xml Lab09.twx Lab09.ncd -o Lab09.twr Lab09.pcf -ucf Lab09.ucf
+
+Design file:              Lab09.ncd
+Physical constraint file: Lab09.pcf
+Device,package,speed:     xc6slx9,tqg144,C,-3 (PRODUCTION 1.23 2013-10-13)
+Report level:             verbose report
+
+Environment Variable      Effect 
+--------------------      ------ 
+NONE                      No environment variables were set
+--------------------------------------------------------------------------------
+
+INFO:Timing:2698 - No timing constraints found, doing default enumeration.
+INFO:Timing:3412 - To improve timing, see the Timing Closure User Guide (UG612).
+INFO:Timing:2752 - To get complete path coverage, use the unconstrained paths 
+   option. All paths that are not constrained will be reported in the 
+   unconstrained paths section(s) of the report.
+INFO:Timing:3339 - The clock-to-out numbers in this timing report are based on 
+   a 50 Ohm transmission line loading model.  For the details of this model, 
+   and for more information on accounting for different loading conditions, 
+   please see the device datasheet.
+
+
+
+Data Sheet report:
+-----------------
+All values displayed in nanoseconds (ns)
+
+Clock PB1_P45 to Pad
+------------+-----------------+------------+-----------------+------------+---------------------+--------+
+            |Max (slowest) clk|  Process   |Min (fastest) clk|  Process   |                     | Clock  |
+Destination |  (edge) to PAD  |   Corner   |  (edge) to PAD  |   Corner   |Internal Clock(s)    | Phase  |
+------------+-----------------+------------+-----------------+------------+---------------------+--------+
+A           |        15.087(R)|      SLOW  |         7.465(R)|      FAST  |XLXI_5/XLXI_58/XLXN_7|   0.000|
+B           |        14.953(R)|      SLOW  |         7.385(R)|      FAST  |XLXI_5/XLXI_58/XLXN_7|   0.000|
+C           |        14.833(R)|      SLOW  |         7.321(R)|      FAST  |XLXI_5/XLXI_58/XLXN_7|   0.000|
+D           |        15.118(R)|      SLOW  |         7.252(R)|      FAST  |XLXI_5/XLXI_58/XLXN_7|   0.000|
+E           |        14.914(R)|      SLOW  |         7.114(R)|      FAST  |XLXI_5/XLXI_58/XLXN_7|   0.000|
+F           |        14.317(R)|      SLOW  |         6.958(R)|      FAST  |XLXI_5/XLXI_58/XLXN_7|   0.000|
+G           |        14.590(R)|      SLOW  |         7.123(R)|      FAST  |XLXI_5/XLXI_58/XLXN_7|   0.000|
+------------+-----------------+------------+-----------------+------------+---------------------+--------+
+
+Clock PB2_P46 to Pad
+------------+-----------------+------------+-----------------+------------+---------------------+--------+
+            |Max (slowest) clk|  Process   |Min (fastest) clk|  Process   |                     | Clock  |
+Destination |  (edge) to PAD  |   Corner   |  (edge) to PAD  |   Corner   |Internal Clock(s)    | Phase  |
+------------+-----------------+------------+-----------------+------------+---------------------+--------+
+A           |        15.219(R)|      SLOW  |         7.532(R)|      FAST  |XLXI_5/XLXI_58/XLXN_7|   0.000|
+B           |        15.085(R)|      SLOW  |         7.452(R)|      FAST  |XLXI_5/XLXI_58/XLXN_7|   0.000|
+C           |        14.965(R)|      SLOW  |         7.388(R)|      FAST  |XLXI_5/XLXI_58/XLXN_7|   0.000|
+D           |        15.250(R)|      SLOW  |         7.319(R)|      FAST  |XLXI_5/XLXI_58/XLXN_7|   0.000|
+E           |        15.046(R)|      SLOW  |         7.181(R)|      FAST  |XLXI_5/XLXI_58/XLXN_7|   0.000|
+F           |        14.449(R)|      SLOW  |         7.025(R)|      FAST  |XLXI_5/XLXI_58/XLXN_7|   0.000|
+G           |        14.722(R)|      SLOW  |         7.190(R)|      FAST  |XLXI_5/XLXI_58/XLXN_7|   0.000|
+------------+-----------------+------------+-----------------+------------+---------------------+--------+
+
+Clock PB3_P47 to Pad
+------------+-----------------+------------+-----------------+------------+---------------------+--------+
+            |Max (slowest) clk|  Process   |Min (fastest) clk|  Process   |                     | Clock  |
+Destination |  (edge) to PAD  |   Corner   |  (edge) to PAD  |   Corner   |Internal Clock(s)    | Phase  |
+------------+-----------------+------------+-----------------+------------+---------------------+--------+
+A           |        15.498(R)|      SLOW  |         7.696(R)|      FAST  |XLXI_5/XLXI_58/XLXN_7|   0.000|
+B           |        15.364(R)|      SLOW  |         7.616(R)|      FAST  |XLXI_5/XLXI_58/XLXN_7|   0.000|
+C           |        15.244(R)|      SLOW  |         7.552(R)|      FAST  |XLXI_5/XLXI_58/XLXN_7|   0.000|
+D           |        15.529(R)|      SLOW  |         7.483(R)|      FAST  |XLXI_5/XLXI_58/XLXN_7|   0.000|
+E           |        15.325(R)|      SLOW  |         7.345(R)|      FAST  |XLXI_5/XLXI_58/XLXN_7|   0.000|
+F           |        14.728(R)|      SLOW  |         7.189(R)|      FAST  |XLXI_5/XLXI_58/XLXN_7|   0.000|
+G           |        15.001(R)|      SLOW  |         7.354(R)|      FAST  |XLXI_5/XLXI_58/XLXN_7|   0.000|
+------------+-----------------+------------+-----------------+------------+---------------------+--------+
+
+Clock PB4_P48 to Pad
+------------+-----------------+------------+-----------------+------------+---------------------+--------+
+            |Max (slowest) clk|  Process   |Min (fastest) clk|  Process   |                     | Clock  |
+Destination |  (edge) to PAD  |   Corner   |  (edge) to PAD  |   Corner   |Internal Clock(s)    | Phase  |
+------------+-----------------+------------+-----------------+------------+---------------------+--------+
+A           |        15.050(R)|      SLOW  |         7.437(R)|      FAST  |XLXI_5/XLXI_58/XLXN_7|   0.000|
+B           |        14.916(R)|      SLOW  |         7.357(R)|      FAST  |XLXI_5/XLXI_58/XLXN_7|   0.000|
+C           |        14.796(R)|      SLOW  |         7.293(R)|      FAST  |XLXI_5/XLXI_58/XLXN_7|   0.000|
+D           |        15.081(R)|      SLOW  |         7.224(R)|      FAST  |XLXI_5/XLXI_58/XLXN_7|   0.000|
+E           |        14.877(R)|      SLOW  |         7.086(R)|      FAST  |XLXI_5/XLXI_58/XLXN_7|   0.000|
+F           |        14.280(R)|      SLOW  |         6.930(R)|      FAST  |XLXI_5/XLXI_58/XLXN_7|   0.000|
+G           |        14.553(R)|      SLOW  |         7.095(R)|      FAST  |XLXI_5/XLXI_58/XLXN_7|   0.000|
+------------+-----------------+------------+-----------------+------------+---------------------+--------+
+
+Clock to Setup on destination clock OSC_P123
+---------------+---------+---------+---------+---------+
+               | Src:Rise| Src:Fall| Src:Rise| Src:Fall|
+Source Clock   |Dest:Rise|Dest:Rise|Dest:Fall|Dest:Fall|
+---------------+---------+---------+---------+---------+
+OSC_P123       |    0.963|         |         |         |
+---------------+---------+---------+---------+---------+
+
+Clock to Setup on destination clock PB1_P45
+---------------+---------+---------+---------+---------+
+               | Src:Rise| Src:Fall| Src:Rise| Src:Fall|
+Source Clock   |Dest:Rise|Dest:Rise|Dest:Fall|Dest:Fall|
+---------------+---------+---------+---------+---------+
+PB1_P45        |   -0.183|   -0.183|         |         |
+PB2_P46        |   -0.019|   -0.019|         |         |
+PB3_P47        |   -0.026|   -0.026|         |         |
+PB4_P48        |   -0.072|   -0.072|         |         |
+---------------+---------+---------+---------+---------+
+
+Clock to Setup on destination clock PB2_P46
+---------------+---------+---------+---------+---------+
+               | Src:Rise| Src:Fall| Src:Rise| Src:Fall|
+Source Clock   |Dest:Rise|Dest:Rise|Dest:Fall|Dest:Fall|
+---------------+---------+---------+---------+---------+
+PB1_P45        |   -0.250|   -0.250|         |         |
+PB2_P46        |   -0.086|   -0.086|         |         |
+PB3_P47        |   -0.093|   -0.093|         |         |
+PB4_P48        |   -0.139|   -0.139|         |         |
+---------------+---------+---------+---------+---------+
+
+Clock to Setup on destination clock PB3_P47
+---------------+---------+---------+---------+---------+
+               | Src:Rise| Src:Fall| Src:Rise| Src:Fall|
+Source Clock   |Dest:Rise|Dest:Rise|Dest:Fall|Dest:Fall|
+---------------+---------+---------+---------+---------+
+PB1_P45        |   -0.414|   -0.414|         |         |
+PB2_P46        |   -0.250|   -0.250|         |         |
+PB3_P47        |   -0.257|   -0.257|         |         |
+PB4_P48        |   -0.303|   -0.303|         |         |
+---------------+---------+---------+---------+---------+
+
+Clock to Setup on destination clock PB4_P48
+---------------+---------+---------+---------+---------+
+               | Src:Rise| Src:Fall| Src:Rise| Src:Fall|
+Source Clock   |Dest:Rise|Dest:Rise|Dest:Fall|Dest:Fall|
+---------------+---------+---------+---------+---------+
+PB1_P45        |   -0.155|   -0.155|         |         |
+PB2_P46        |    0.009|    0.009|         |         |
+PB3_P47        |    0.002|    0.002|         |         |
+PB4_P48        |   -0.044|   -0.044|         |         |
+---------------+---------+---------+---------+---------+
+
+Pad to Pad
+---------------+---------------+---------+
+Source Pad     |Destination Pad|  Delay  |
+---------------+---------------+---------+
+DIP<0>         |A              |   14.966|
+DIP<0>         |B              |   14.827|
+DIP<0>         |C              |   14.712|
+DIP<0>         |D              |   14.905|
+DIP<0>         |E              |   14.701|
+DIP<0>         |F              |   14.196|
+DIP<0>         |G              |   14.469|
+DIP<1>         |A              |   14.898|
+DIP<1>         |B              |   14.759|
+DIP<1>         |C              |   14.644|
+DIP<1>         |D              |   14.871|
+DIP<1>         |E              |   14.667|
+DIP<1>         |F              |   14.128|
+DIP<1>         |G              |   14.401|
+DIP<2>         |A              |   14.712|
+DIP<2>         |B              |   14.573|
+DIP<2>         |C              |   14.458|
+DIP<2>         |D              |   14.685|
+DIP<2>         |E              |   14.481|
+DIP<2>         |F              |   13.942|
+DIP<2>         |G              |   14.215|
+DIP<3>         |A              |   14.875|
+DIP<3>         |B              |   14.736|
+DIP<3>         |C              |   14.622|
+DIP<3>         |D              |   14.848|
+DIP<3>         |E              |   14.644|
+DIP<3>         |F              |   14.105|
+DIP<3>         |G              |   14.379|
+DIP<4>         |A              |   14.763|
+DIP<4>         |B              |   14.732|
+DIP<4>         |C              |   14.681|
+DIP<4>         |D              |   14.820|
+DIP<4>         |E              |   14.616|
+DIP<4>         |F              |   13.993|
+DIP<4>         |G              |   14.438|
+DIP<5>         |A              |   14.535|
+DIP<5>         |B              |   14.661|
+DIP<5>         |C              |   14.420|
+DIP<5>         |D              |   14.476|
+DIP<5>         |E              |   14.272|
+DIP<5>         |F              |   13.765|
+DIP<5>         |G              |   14.177|
+DIP<6>         |A              |   14.582|
+DIP<6>         |B              |   14.558|
+DIP<6>         |C              |   14.500|
+DIP<6>         |D              |   14.349|
+DIP<6>         |E              |   14.145|
+DIP<6>         |F              |   13.812|
+DIP<6>         |G              |   14.257|
+DIP<7>         |A              |   14.279|
+DIP<7>         |B              |   14.188|
+DIP<7>         |C              |   14.197|
+DIP<7>         |D              |   14.020|
+DIP<7>         |E              |   13.816|
+DIP<7>         |F              |   13.509|
+DIP<7>         |G              |   13.954|
+SW<0>          |A              |   15.370|
+SW<0>          |B              |   15.231|
+SW<0>          |C              |   15.116|
+SW<0>          |D              |   15.309|
+SW<0>          |E              |   15.105|
+SW<0>          |F              |   14.600|
+SW<0>          |G              |   14.873|
+SW<1>          |A              |   14.777|
+SW<1>          |B              |   14.903|
+SW<1>          |C              |   14.449|
+SW<1>          |D              |   14.694|
+SW<1>          |E              |   14.490|
+SW<1>          |F              |   14.007|
+SW<1>          |G              |   14.206|
+SW<2>          |A              |   14.655|
+SW<2>          |B              |   14.740|
+SW<2>          |C              |   14.401|
+SW<2>          |D              |   14.628|
+SW<2>          |E              |   14.424|
+SW<2>          |F              |   13.885|
+SW<2>          |G              |   14.158|
+SW<3>          |A              |   14.534|
+SW<3>          |B              |   14.395|
+SW<3>          |C              |   14.281|
+SW<3>          |D              |   14.507|
+SW<3>          |E              |   14.303|
+SW<3>          |F              |   13.764|
+SW<3>          |G              |   14.038|
+SW<4>          |A              |   14.378|
+SW<4>          |B              |   14.504|
+SW<4>          |C              |   14.146|
+SW<4>          |D              |   14.295|
+SW<4>          |E              |   14.091|
+SW<4>          |F              |   13.608|
+SW<4>          |G              |   13.903|
+SW<5>          |A              |   14.620|
+SW<5>          |B              |   14.596|
+SW<5>          |C              |   14.538|
+SW<5>          |D              |   14.594|
+SW<5>          |E              |   14.390|
+SW<5>          |F              |   13.850|
+SW<5>          |G              |   14.295|
+SW<6>          |A              |   14.296|
+SW<6>          |B              |   14.422|
+SW<6>          |C              |   14.039|
+SW<6>          |D              |   14.213|
+SW<6>          |E              |   14.009|
+SW<6>          |F              |   13.526|
+SW<6>          |G              |   13.796|
+SW<7>          |A              |   13.782|
+SW<7>          |B              |   13.691|
+SW<7>          |C              |   13.700|
+SW<7>          |D              |   13.523|
+SW<7>          |E              |   13.319|
+SW<7>          |F              |   13.012|
+SW<7>          |G              |   13.457|
+---------------+---------------+---------+
+
+
+Analysis completed Sun Nov 10 21:57:17 2019 
+--------------------------------------------------------------------------------
+
+Trace Settings:
+-------------------------
+Trace Settings 
+
+Peak Memory Usage: 4570 MB
+
+
+

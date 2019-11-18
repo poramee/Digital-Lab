@@ -1,0 +1,1 @@
+sch2sym -intstyle ise -family spartan6 -w -refsym Display {C:/Digital Lab/Lab09/Display.sch} {C:/Digital Lab/Lab09/Display.sym} 

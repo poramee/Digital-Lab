@@ -1,0 +1,16 @@
+vhdtdtfi -lib work XOR8B.vhd -prj Lab09 -o XOR8B.spl -module XOR8B -template C:/Xilinx/14.7/ISE_DS/ISE//data/splfile.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan6 XOR8B.spl {C:/Digital Lab/Lab09/XOR8B.sym} 
+vhdtdtfi -lib work XOR8B.vhd -prj Lab09 -o XOR8B.spl -module XOR8B -template C:/Xilinx/14.7/ISE_DS/ISE//data/splfile.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan6 -w XOR8B.spl {C:/Digital Lab/Lab09/XOR8B.sym} 
+vhdtdtfi -lib work XOR8B.vhd -prj Lab09 -o XOR8B.spl -module XOR8B -template C:/Xilinx/14.7/ISE_DS/ISE//data/splfile.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan6 -w XOR8B.spl {C:/Digital Lab/Lab09/XOR8B.sym} 
+vhdtdtfi -lib work XOR8B.vhd -prj Lab09 -o XOR8B.spl -module XOR8B -template C:/Xilinx/14.7/ISE_DS/ISE//data/splfile.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan6 -w XOR8B.spl {C:/Digital Lab/Lab09/XOR8B.sym} 
+vhdtdtfi -lib work XOR8B.vhd -prj Lab09 -o XOR8B.spl -module XOR8B -template C:/Xilinx/14.7/ISE_DS/ISE//data/splfile.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan6 -w XOR8B.spl {C:/Digital Lab/Lab09/XOR8B.sym} 
+vhdtdtfi -prj Lab09 -o "C:/Digital Lab/Lab09/XOR8B.vhi" -module XOR8B -template C:/Xilinx/14.7/ISE_DS/ISE//data/vhdlinst.tft -deleteonerror -lib work XOR8B.vhd 
+vhdtdtfi -prj Lab09 -o "C:/Digital Lab/Lab09/XOR8B.vhi" -module XOR8B -template C:/Xilinx/14.7/ISE_DS/ISE//data/vhdlinst.tft -deleteonerror -lib work XOR8B.vhd 
+vhdtdtfi -lib work XOR8B.vhd -prj Lab09 -o XOR8B.spl -module XOR8B -template C:/Xilinx/14.7/ISE_DS/ISE//data/splfile.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan6 -w XOR8B.spl {C:/Digital Lab/Lab09/XOR8B.sym} 
+vhdtdtfi -lib work XOR8B.vhd -prj Lab09 -o XOR8B.spl -module XOR8B -template C:/Xilinx/14.7/ISE_DS/ISE//data/splfile.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan6 -w XOR8B.spl {C:/Digital Lab/Lab09/XOR8B.sym} 

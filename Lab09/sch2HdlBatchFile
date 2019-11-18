@@ -1,0 +1,5 @@
+sch2hdl,-intstyle,ise,-family,spartan6,-flat,-suppress,-vhdl,C:/Digital Lab/Lab09/SELECTOR.vhf,-w,C:/Digital Lab/Lab09/SELECTOR.sch
+sch2hdl,-intstyle,ise,-family,spartan6,-flat,-suppress,-vhdl,C:/Digital Lab/Lab09/Lab09.vhf,-w,C:/Digital Lab/Lab09/Lab09.sch
+sch2hdl,-intstyle,ise,-family,spartan6,-flat,-suppress,-vhdl,C:/Digital Lab/Lab09/ALU.vhf,-w,C:/Digital Lab/Lab09/ALU.sch
+sch2hdl,-intstyle,ise,-family,spartan6,-flat,-suppress,-vhdl,C:/Digital Lab/Lab09/Lab09.vhf,-w,C:/Digital Lab/Lab09/Lab09.sch
+sch2hdl,-intstyle,ise,-family,spartan6,-flat,-suppress,-vhdl,C:/Digital Lab/Lab09/ALU.vhf,-w,C:/Digital Lab/Lab09/ALU.sch
